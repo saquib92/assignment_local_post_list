@@ -1,17 +1,10 @@
-# assignment_local_post_list
+Task Overview:
+Objective: Fetch data from a public API, store it locally using SQLite, and display the data in a list format.
+API: Use the JSONPlaceholder API (https://jsonplaceholder.typicode.com/posts) to fetch the posts.
+Local Storage: Use the sqflite package for local database storage.
+UI: Display the fetched data in a list, showing the title and body of each post.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# assignment_local_post_list
+Steps:
+Fetch Data from API: Use the http package to retrieve data from the JSONPlaceholder API.
+Store Data Locally: Save the fetched data into an SQLite database using the sqflite package.
+Display Data: Create a simple UI to display the list of posts using ListView, including the title and body for each post.
